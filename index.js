@@ -1,7 +1,7 @@
 let readabledata = '';
 const quotes = document.getElementById('text');
 const author = document.getElementById('author');
-const next = document.getElementById('next');
+const next = document.getElementById('arrow');
 const getnewquotes = () => {
   let rnum = Math.floor(Math.random() * 1000);
   quotes.innerHTML = `${readabledata[rnum].text}`
